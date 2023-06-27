@@ -1,0 +1,44 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Skeleton",
+      "type": "python",
+      "request": "launch",
+      "program": "skeleton.py",
+      "console": "integratedTerminal",
+      "args": [],
+      "justMyCode": true
+    },
+    {
+      "name": "Color Camera",
+      "type": "python",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal",
+      "args": ["--demo", "color_camera"],
+      "justMyCode": true
+    },
+    {
+      "name": "Mono Cameras",
+      "type": "python",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal",
+      "args": ["--demo", "mono_cameras"],
+      "justMyCode": true
+    },
+    {
+      "name": "Obj Detection",
+      "type": "python",
+      "request": "launch",
+      "program": "main.py",
+      "console": "integratedTerminal",
+      "args": ["--demo", "object_detection"],
+      "justMyCode": true
+    }
+  ]
+}
